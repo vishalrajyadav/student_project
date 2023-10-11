@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="union.jpg" type="icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .banner{
+            width: 100%;
+            height: 100vh;
+            
+           background-image: url(modern-classroom-with-computer-equipment-learning-generated-by-ai.jpg) ;
+            background-size: cover;
+            background-position: center;
+        }
+      
+       
+        .content{
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            color: #fff;
+        }
+        .content h1{
+            font-size: 50px;
+            margin-top: 80px;
+        }
+        #button{
+            width: 250px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 3px solid #009688;
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: 1s;
+         
+        }
+        span{
+            background: #009688;
+            height: 100%;
+            width: 0;
+            border-radius: 25px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: 1s;
+           
+        }
+        #button:hover{
+            box-shadow: 18px 20px 10px black;
+        }
+        #button:hover span{
+        
+         width: 100%;
+        }
+        #button:hover{
+            border: none;
+        }
+        h1{
+            text-shadow: 18px 19px 4.5px rgb(0, 0, 0);
+           
+        
+           
+           
+        }
+        
+
+    </style>
+    <title>Welcome</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 24px;">VISHU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav social-links mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/profile.php?id=100011634708404">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://instagram.com/vishalrajyaduvanshi59?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Email</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="homes.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="game.html">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quote2.html">Quotes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quiz.html">Quiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner">
+      
+        <div class="content">
+            <h1>STUDENT'S VOICE : <sub>The Fight For a Better Future </sub></h1>
+            <div>
+                <button type="button" id="button"><span></span>WELCOME</button>
+                <button type="button" id="button"><span></span>HAVE A GOOD DAY</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

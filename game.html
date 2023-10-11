@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="beautiful-bubble-floating-exterior.jpg" type="image.png">
+    <title>Bubble Game</title>
+    <style>
+        /* Add CSS styles for mobile screens */
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 16px; /* Adjust font size for smaller screens */
+            }
+
+            .main {
+                text-align: center; /* Center content for smaller screens */
+            }
+
+            .start td, .image .details {
+                padding: 10px; /* Add padding for better spacing on smaller screens */
+            }
+
+            /* Make the background image in .image div responsive */
+            .image {
+                background-image: url('your-image.jpg');
+                background-size: cover;
+                background-position: center;
+                height: 300px; /* Adjust the height as needed */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="start">
+            <table>
+                <tr>
+                    <td><button><a href="home.html">START GAME</a></button></td>
+                </tr>
+                <tr>
+                    <td><button><a href="about.html">ABOUT ME</a></button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="image">
+            <div class="details">
+                <h2>Created By Vishal Raj</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

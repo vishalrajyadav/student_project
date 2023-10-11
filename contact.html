@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="icon" href="union.jpg" type="icon">
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
+    ::placeholder{
+        color: #fff;
+    }
+   
+    input{
+       border: 0;
+        border-radius: 8px;
+        width: 95%;
+        height: 28px;
+        text-decoration: underline;
+        background-color: transparent;
+     
+
+    }
+    textarea{
+        border: 0;
+        text-decoration: underline;
+        background-color: transparent;
+       
+        border-radius: 8px;
+        height: 140px;
+    }
+    #button{
+        border: 4px solid black;
+       
+        font-size: largez;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: red;
+        transition: 1.5s;
+       
+        
+    }
+   
+    #button:hover{
+          background-color: green;
+        }
+    #form{
+        border: 3px solid black;
+        width: 650px;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+        border-radius: 20px;
+        box-shadow: 18px 20px 14px rgb(1, 1, 1);
+         
+        background: linear-gradient(-45deg,#ff0101, #1fdf4c, #49c4e9, #ecfa80, #eeafaf,#b4d1e7);
+             background-size: 400% 400%;
+            animation: gradientAnimation 10s linear infinite alternate;
+    }
+  
+    .banner{
+            width: 100%;
+            height: 100vh;
+
+            background-size: cover;
+            background-position: center;
+        }
+      
+        @keyframes gradientAnimation {
+            0% {
+                 background-position: 0% 50%;
+        }
+            100% {
+                background-position: 100% 50%;
+            }
+        }  
+        
+      body{
+         
+        background: linear-gradient(-45deg,#000000, #37497E, #7E8E9A, #37497E, #7E8E9A,#b4d1e7);
+             background-size: 400% 400%;
+            animation: gradientAnimation 10s linear infinite alternate;
+      }
+    
+      
+   </style>
+    <title>Contact_us</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 24px;">VISHU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav social-links mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/profile.php?id=100011634708404">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://instagram.com/vishalrajyaduvanshi59?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Email</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="homes.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="game.html">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quote2.html">Quotes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quiz.html">Quiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    <div class="banner">
+       
+        <br><br><br><br>
+        <h2 style="text-align: center;">Contact Us</h2>
+        
+        <div class="contact">
+            <form action="https://formspree.io/f/mpzgpywl" id="form" method="post">
+             <table>
+                 <tr>
+                    
+                     <td>
+                        <br><br><input type="text" name="first_name"  placeholder="Name"></td>
+                     
+                 </tr>
+                 <tr>
+                     <td><input type="email" name="email_id" placeholder="Email Id"> </td>
+                 </tr>
+                    
+                 <tr>
+                     <td><input type="number" name="Phone_no"  placeholder="Phone No"></td>
+                 </tr>
+                 <tr >
+                     <td >
+                         <textarea name="message" id="message" cols="30" rows="10" name="message" placeholder="Enter your message"></textarea>
+                     </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <button type="submit" id="button">Contact Us</button>
+                    </td>
+                 </tr>
+             </table>
+            </form>
+         </div>
+        
+         
+        
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
